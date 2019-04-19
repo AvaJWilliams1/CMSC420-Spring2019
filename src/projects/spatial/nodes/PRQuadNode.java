@@ -10,7 +10,11 @@ import projects.spatial.trees.PRQuadTree;
  *
  * <p><b>YOU SHOULD ***NOT*** EDIT THIS CLASS!</b> If you do, you risk <b>not passing our tests!</b></p>
  *
+<<<<<<< HEAD
  * @author <a href="mailto:jasonfil@cs.umd.edu">Jason Filippou</a>
+=======
+ * @author <a href="https://github.com/JasonFil">Jason Filippou</a>
+>>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
  */
 public abstract class PRQuadNode {
 

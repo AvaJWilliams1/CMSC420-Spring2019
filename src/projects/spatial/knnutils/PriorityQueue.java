@@ -17,7 +17,11 @@ import projects.spatial.kdpoint.KDPoint;
  * @see PriorityQueueNode
  * @see BoundedPriorityQueue
  */
+<<<<<<< HEAD
 public interface PriorityQueue<T> extends Iterable<T>{
+=======
+public interface PriorityQueue<T> {
+>>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
 	
 	/**
 	 * <p>Insert element in the {@link PriorityQueue} according to its priority.

@@ -15,7 +15,11 @@ import java.util.Iterator;
  * @author  ---- YOUR NAME HERE! -----
  *
  */
+<<<<<<< HEAD
 public class BoundedPriorityQueue<T> implements PriorityQueue<T>{
+=======
+public class BoundedPriorityQueue<T> implements Iterable<T>{
+>>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
 
 	private static RuntimeException UNIMPL_METHOD = new RuntimeException("Implement this method!");
 
