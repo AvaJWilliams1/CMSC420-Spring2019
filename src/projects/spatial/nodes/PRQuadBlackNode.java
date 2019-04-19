@@ -26,12 +26,8 @@ public class PRQuadBlackNode extends PRQuadNode {
     /* ****************************************************************************** */
 
     /**
-<<<<<<< HEAD
      * The default bucket size for all of our black nodes will be 1, and this is something
      * that the interface also communicates to consumers.
-=======
-     * The default bucket size for all of our black nodes will be 1.
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
      */
     public static final int DEFAULT_BUCKETSIZE = 1;
 

@@ -7,17 +7,10 @@ import projects.spatial.kdpoint.KDPoint;
 import projects.spatial.trees.KDTree;
 import projects.spatial.trees.PRQuadTree;
 
-<<<<<<< HEAD
 import java.util.List;
 import java.util.Random;
 import java.util.Collection;
 import java.util.Arrays;
-=======
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Random;
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
 
 import static org.junit.Assert.*;
 
@@ -26,10 +19,7 @@ import static org.junit.Assert.*;
  * You should extend it with your own tests.
  *
  * @author  --- YOUR NAME HERE! ---
-<<<<<<< HEAD
  *
-=======
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
  */
 public class StudentTests {
 
@@ -47,10 +37,7 @@ public class StudentTests {
 
     /* Private utilities */
 
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
     private int getRandomSign(){
         return 2 * r.nextInt(2) - 1;
     }
@@ -89,10 +76,7 @@ public class StudentTests {
 
     /* BPQ Tests.... */
 
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
     /* KD-Tree Tests.... */
 
     @Test

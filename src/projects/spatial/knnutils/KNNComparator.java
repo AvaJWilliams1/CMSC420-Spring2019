@@ -5,13 +5,8 @@ import projects.spatial.kdpoint.KDPoint;
 import java.io.Serializable;
 import java.util.Comparator;
 
-<<<<<<< HEAD
 /**<p>KNNComparator is a {@link Serializable} {@link Comparator} used for sorting {@link KDPoint}s
  * based on the {@link KDPoint#distanceSquared(KDPoint, KDPoint) distanceSquared} to an anchor {@link KDPoint}. It is very
-=======
-/**<p>{@link KNNComparator} is a {@link Serializable} {@link Comparator} used for sorting {@link KDPoint}s
- * based on the {@link KDPoint#distanceSquared(KDPoint, KDPoint) distance} to an anchor {@link KDPoint}. It is very
->>>>>>> parent of d002882... Revert "Skeleton code ready for students." to add a newline.
  * useful for <b>testing</b> KNN queries.</p>
  * 
  * <p><b>Note: this comparator imposes orderings that are inconsistent with {@link KDPoint#equals(Object)}.</b></p>
