@@ -99,7 +99,7 @@ public class KDTreeNode {
      * as our currDim allows and <em>prune subtrees</em> that we <b>don't</b> have to visit as we backtrack. Consult
      * all of our resources if you need a reminder of how these should work.</p>
      * @param anchor The centroid of the hypersphere that the range query implicitly creates.
-     * @param results A {@link Collection} that accumulates all the {@link }
+     * @param results A {@link Collection} that accumulates all the {@link KDPoint}s which satisfy the range query.
      * @param currDim The current dimension examined by the {@link KDTreeNode}.
      * @param dims The total number of dimensions of our {@link KDPoint}s.
      * @param range The <b>INCLUSIVE</b> range from the &quot;anchor&quot; {@link KDPoint}, within which all the
@@ -128,7 +128,7 @@ public class KDTreeNode {
      * @return An object of type {@link NNData}, which exposes the pair (distance_of_NN_from_anchor, NN),
      * where NN is the nearest {@link KDPoint} to the anchor {@link KDPoint} that we found.
      *
-     * @param anchor The &quot;ancor&quot; {@link KDPoint}of the nearest neighbor query.
+     * @param anchor The &quot;anchor&quot; {@link KDPoint}of the nearest neighbor query.
      * @param currDim The current dimension considered.
      * @param dims The total number of dimensions considered.
      * @param n An object of type {@link NNData}, which will define a nearest neighbor as a pair (distance_of_NN_from_anchor, NN),
@@ -143,7 +143,7 @@ public class KDTreeNode {
     }
 
     /**
-     * <p>Executes a nearest neighbor query, which returns the nearest neighbor, in terms of
+     * <p>Executes a nearest neighbor query, which returns the k nearest neighbors, in terms of
      * {@link KDPoint#distanceSquared(KDPoint)}, from the &quot;anchor&quot; point.</p>
      *
      * <p>Recall that, in the descending phase, a NN query behaves <em>greedily</em>, approaching our
