@@ -50,7 +50,7 @@ public class KDPoint {
 	
 	/**
 	 * Initialize a {@link KDPoint} based on an already existing {@link KDPoint}. Since {@link KDPoint} is a
-	 * <b>mutable</b> class, <b>all new {@link KDPoint} instances</b> should be created this copy-constructor!
+	 * <b>mutable</b> class, <b>all new {@link KDPoint} instances</b> should be created by this copy-constructor!
 	 * @param p The {@link KDPoint} on which we will base the creation of this.
 	 */
 	public KDPoint(KDPoint p){
