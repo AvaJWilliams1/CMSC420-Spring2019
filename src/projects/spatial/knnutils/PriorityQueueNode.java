@@ -56,9 +56,7 @@ public class PriorityQueueNode<T> implements Comparable<PriorityQueueNode<T>>{
 	public int compareTo(PriorityQueueNode<T> o) {
 		// Remember that a numerically smaller priority
 		// is actually considered larger in priority
-		// queue terms. Also recall that we are using a 
-		// MinHeap, so the smallest elements ascend to the top,
-		// not the largest.
+		// queue terms. 
 		if(priority < o.priority)
 			return -1;
 		else if(priority > o.priority)
