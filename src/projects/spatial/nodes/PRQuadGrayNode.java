@@ -18,7 +18,7 @@ import projects.spatial.trees.PRQuadTree;
  */
 public class PRQuadGrayNode extends PRQuadNode{
 
-    private static RuntimeException UNIMPL_METHOD = new RuntimeException("Implement this method!");
+    private static final RuntimeException UNIMPL_METHOD = new RuntimeException("Implement this method!");
 
     /* *************************************************************************
      ************** PLACE YOUR PRIVATE METHODS AND FIELDS HERE: ****************
